@@ -90,8 +90,9 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "default",
-        "label": "Button Color",
+        "value": "",
+        "label": "Button types",
+        "description": "Different button types",
         "valueType": "string",
         "options": [
           {
@@ -99,11 +100,11 @@
             "value": ""
           },
           {
-            "name": "Green Background",
+            "name": "bg-green",
             "value": "bg-green"
           },
           {
-            "name": "Red Background",
+            "name": "bg-red",
             "value": "bg-red"
           }
         ]
