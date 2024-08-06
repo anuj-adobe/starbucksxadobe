@@ -185,19 +185,19 @@ button.secondary {
   color: var(--text-color);
 }
 
-main.bg-white {
+main .section.bg-white {
   background-color: white;
 }
 
-main.bg-ivory-mist {
+main .section.bg-ivory-mist {
   background-color: var(--ivory-mist);
 }
 
-main.bg-light {
+main .section.bg-light {
   background-color: var(--light-color);
 }
 
-main.bg-gray {
+main .section.bg-gray {
   background-color: gray;
 }
 

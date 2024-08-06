@@ -1,36 +1,5 @@
 [
   {
-    "id": "main",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "background-white",
-        "label": "Background Color",
-        "description": "Page background color",
-        "valueType": "string",
-        "options": [
-          {
-              "name": "White Background",
-              "value": "bg-white"
-          },
-          {
-              "name": "Ivory Mist Background",
-              "value": "bg-ivory-mist"
-          },
-          {
-              "name": "Light Background",
-              "value": "bg-light"
-          },
-          {
-             "name": "Gray Background",
-             "value": "bg-gray"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "title",
     "fields": [
       {
