@@ -18,6 +18,7 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --ivory-mist: #f2f0ea;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -182,6 +183,22 @@ button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
   color: var(--text-color);
+}
+
+main.bg-white {
+  background-color: white;
+}
+
+main.bg-ivory-mist {
+  background-color: var(--ivory-mist);
+}
+
+main.bg-light {
+  background-color: var(--light-color);
+}
+
+main.bg-gray {
+  background-color: gray;
 }
 
 main img {
