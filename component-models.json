@@ -92,7 +92,6 @@
         "name": "type",
         "value": "",
         "label": "Type",
-        "description": "Different button types",
         "valueType": "string",
         "options": [
           {
@@ -100,12 +99,12 @@
             "value": ""
           },
           {
-            "name": "bg-green",
-            "value": "bg-green"
+            "name": "primary",
+            "value": "primary"
           },
           {
-            "name": "bg-red",
-            "value": "bg-red"
+            "name": "secondary",
+            "value": "secondary"
           }
         ]
       }
