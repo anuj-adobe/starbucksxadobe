@@ -105,6 +105,14 @@
           {
             "name": "secondary",
             "value": "secondary"
+          },
+          {
+           "name": "bg-green",
+           "value": "bg-green"
+          },
+          {
+            "name": "bg-red",
+            "value": "bg-red"
           }
         ]
       }
