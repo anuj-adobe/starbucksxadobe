@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://adobe.sharepoint.com/sites/aem-assistant/Shared%20Documents/automation-tool/starbucksxadobe
+  /:
+    url: "https://author-p137653-e1386691.adobeaemcloud.com/bin/franklin.delivery/anuj-adobe/starbucksxadobe/main"
+    type: "markup"
+    suffix: ".html"
