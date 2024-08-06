@@ -99,12 +99,12 @@
             "value": ""
           },
           {
-            "name": "primary",
-            "value": "primary"
+            "name": "Green Background",
+            "value": "bg-green"
           },
           {
-            "name": "secondary",
-            "value": "secondary"
+            "name": "Red Background",
+            "value": "bg-red"
           }
         ]
       }

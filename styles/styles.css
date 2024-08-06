@@ -164,6 +164,14 @@ button {
   border-radius: 30px;
 }
 
+a.button.bg-green:any-link {
+  background-color: rgba(2, 117, 75, 1);
+}
+
+a.button.bg-red:any-link {
+  background-color: rgba(235, 16, 0, 1);
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
