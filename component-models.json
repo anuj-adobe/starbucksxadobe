@@ -90,8 +90,8 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "",
-        "label": "Type",
+        "value": "default",
+        "label": "Button Color",
         "valueType": "string",
         "options": [
           {
