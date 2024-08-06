@@ -89,9 +89,9 @@
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "type",
         "value": "",
-        "label": "Button types",
+        "label": "Type",
         "description": "Different button types",
         "valueType": "string",
         "options": [
