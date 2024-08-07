@@ -130,20 +130,27 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "left-aligned",
-        "label": "Column Layout",
-        "description": "Column Layout",
+        "value": "text-left-aligned",
+        "label": "Column Text Layout",
+        "description": "Column Text Layout",
         "valueType": "string",
         "options": [
          {
-             "name": "left-aligned",
-             "value": "left-aligned"
+             "name": "text-left-aligned",
+             "value": "text-left-aligned"
          },
          {
-             "name": "centered",
-             "value": "centered"
+             "name": "text-centered",
+             "value": "text-centered"
          }
         ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading-size",
+        "value": "",
+        "label": "Heading Size"
       }
     ]
   },
