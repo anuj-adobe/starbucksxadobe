@@ -4,86 +4,65 @@
   font-family: Arial, sans-serif;
 }
 
-.resources-row {
+.resources a:any-link {
+  all: unset;
+  color: white;
+  text-decoration: none;
+}
+
+.resources .resources-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  gap: 20px;
 }
 
-.resources-image {
-  margin-right: 20px;
-}
-
-.resources-image img {
-  max-width: 100px; /* Adjust width as needed */
-  height: auto;
-}
-
-.resources-heading p {
+.resources .resources-heading p {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
 }
 
-.resources-links {
-  display: flex;
+.resources .resources-links {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
-  gap: 50px;
+  gap: 40px; /* Adjust gap between columns */
+  list-style: none;
+  margin: 20px auto 0 auto;
 }
 
-.resources-column {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.resources-link-item {
+.resources .resources-link-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   font-size: 20px;
 }
 
-.resources-link-item a {
+.resources .resources-link-item a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.resources-link-item a:hover {
+.resources .resources-link-item a:hover {
   text-decoration: underline;
 }
 
-.arrow-icon {
+.resources .arrow-icon {
   margin-right: 10px;
   width: 16px; /* Adjust size as needed */
   height: 16px;
 }
 
-.resources-links::before,
-.resources-links::after {
+.resources .resources-links::before {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #A5C599; /* Light line above and below the links */
+  border-bottom: 1px solid #eedc82; /* Light line above and below the links */
   margin: 0 10px;
   align-self: center;
-}
-
-.resources-links {
-  position: relative;
-}
-
-.resources-links::before {
   position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%;
-}
-
-.resources-links::after {
-  position: absolute;
-  bottom: -40px;
+  top: -10px;
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
