@@ -126,20 +126,15 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      }
-    ]
-  },
-  {
-   "id": "column",
-   "fields": [
-     {
-       "component": "select",
-       "name": "classes",
-       "value": "centered",
-       "label": "Column Variant",
-       "description": "Style column content",
-       "valueType": "string",
-       "options": [
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "centered",
+        "label": "Column Layout",
+        "description": "Column Layout",
+        "valueType": "string",
+        "options": [
          {
              "name": "left-aligned",
              "value": "left-aligned"
@@ -148,9 +143,9 @@
              "name": "centered",
              "value": "centered"
          }
-       ]
-     }
-   ]
+        ]
+      }
+    ]
   },
   {
     "id": "card",
