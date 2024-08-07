@@ -130,7 +130,7 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "centered",
+        "value": "left-aligned",
         "label": "Column Layout",
         "description": "Column Layout",
         "valueType": "string",
