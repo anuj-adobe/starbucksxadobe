@@ -216,6 +216,10 @@ main .section.bg-gray {
   background-color: gray;
 }
 
+main .section.bg-green {
+  background-color: rgba(2, 117, 75, 1);
+}
+
 main img {
   max-width: 100%;
   width: auto;

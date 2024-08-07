@@ -28,13 +28,22 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "resources"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "resources",
+    "components": [
+      "image",
+      "title",
+      "text"
     ]
   }
 ]
