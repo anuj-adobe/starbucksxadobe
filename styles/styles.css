@@ -188,6 +188,11 @@ button:disabled:hover {
   cursor: unset;
 }
 
+a.button.primary,
+button.primary {
+  background-color: rgba(2, 117, 75, 1);
+}
+
 a.button.secondary,
 button.secondary {
   background-color: unset;
