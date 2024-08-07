@@ -130,6 +130,29 @@
     ]
   },
   {
+   "id": "column",
+   "fields": [
+     {
+       "component": "select",
+       "name": "classes",
+       "value": "centered",
+       "label": "Column Variant",
+       "description": "Style column content",
+       "valueType": "string",
+       "options": [
+         {
+             "name": "left-aligned",
+             "value": "left-aligned"
+         },
+         {
+             "name": "centered",
+             "value": "centered"
+         }
+       ]
+     }
+   ]
+  },
+  {
     "id": "card",
     "fields": [
       {
