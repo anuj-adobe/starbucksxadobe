@@ -263,20 +263,13 @@
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
-        "component": "title",
         "name": "title",
         "value": "",
         "label": "Title",
         "valueType": "string"
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "text",
         "value": "",
         "label": "Body",
