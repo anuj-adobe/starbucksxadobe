@@ -269,10 +269,10 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "text",
+        "component": "richtext",
+        "name": "resourcesLinks",
         "value": "",
-        "label": "Body",
+        "label": "Resources Links",
         "valueType": "string"
       }
     ]
