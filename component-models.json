@@ -147,12 +147,16 @@
              "value": "first-col-double"
          },
          {
-              "name": "Image size medium",
-              "value": "img-medium"
+            "name": "Image size default",
+            "value": "img-default"
          },
          {
-              "name": "Image size small",
-              "value": "img-small"
+             "name": "Image size medium",
+             "value": "img-medium"
+         },
+         {
+             "name": "Image size small",
+             "value": "img-small"
          },
          {
             "name": "Text Left aligned",
@@ -161,6 +165,10 @@
           {
             "name": "Text Center aligned",
             "value": "center-aligned"
+          },
+          {
+            "name": "text default",
+            "value": "text-default"
           },
           {
             "name": "text small",
