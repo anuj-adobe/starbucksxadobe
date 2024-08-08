@@ -128,7 +128,7 @@
         "label": "Rows"
       },
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
         "value": "",
         "label": "Block variants",
@@ -151,8 +151,8 @@
               "value": "img-medium"
          },
          {
-              "name": "Image size large",
-              "value": "img-large"
+              "name": "Image size small",
+              "value": "img-small"
          },
          {
             "name": "Text Left aligned",
@@ -161,10 +161,6 @@
           {
             "name": "Text Center aligned",
             "value": "center-aligned"
-          },
-          {
-            "name": "text default",
-            "value": "text-default"
           },
           {
             "name": "text small",
