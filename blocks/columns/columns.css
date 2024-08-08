@@ -32,6 +32,35 @@
   }
 }
 
-.columns.text-centered > div:has(h1, h2, h3, h4, h5, h6, p) {
+.columns.center-aligned > div:has(h1, h2, h3, h4, h5, h6, p) {
   text-align: center;
 }
+
+.columns.img-col-half > div > div:not(.columns-img-col) {
+  flex: 2;
+}
+
+.columns.img-col-double .columns-img-col {
+  flex: 2;
+}
+
+.columns.img-small img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.columns.img-medium img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.columns.text-small p,
+.columns.text-small a {
+  font-size: 18px;
+}
+
+.columns.text-large p,
+.columns.text-large a {
+  font-size: 24px;
+}
+

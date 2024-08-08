@@ -130,27 +130,86 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "text-left-aligned",
-        "label": "Column Text Layout",
-        "description": "Column Text Layout",
+        "value": "",
+        "label": "Image column ratio",
+        "description": "Image column ratio",
         "valueType": "string",
         "options": [
          {
-             "name": "text-left-aligned",
-             "value": "text-left-aligned"
+             "name": "1x1",
+             "value": ""
          },
          {
-             "name": "text-centered",
-             "value": "text-centered"
+             "name": "1x2",
+             "value": "img-col-half"
+         },
+         {
+             "name": "2x1",
+             "value": "img-col-double"
          }
         ]
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "heading-size",
+        "component": "select",
+        "name": "classes",
         "value": "",
-        "label": "Heading Size"
+        "label": "Image Size",
+        "description": "Image Size",
+        "valueType": "string",
+        "options": [
+         {
+             "name": "Original",
+             "value": ""
+         },
+         {
+             "name": "medium",
+             "value": "img-medium"
+         },
+         {
+             "name": "Large",
+             "value": "img-large"
+         }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "left-aligned",
+        "label": "Layout",
+        "description": "Layout",
+        "valueType": "string",
+        "options": [
+         {
+             "name": "Left aligned",
+             "value": "left-aligned"
+         },
+         {
+             "name": "Center aligned",
+             "value": "center-aligned"
+         }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Column Text Size",
+        "description": "Column Text Size",
+        "valueType": "string",
+        "options": [
+         {
+             "name": "default",
+             "value": ""
+         },
+         {
+             "name": "small",
+             "value": "text-small"
+         },
+         {
+             "name": "large",
+             "value": "text-large"
+         }
+        ]
       }
     ]
   },
