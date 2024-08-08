@@ -37,13 +37,5 @@
     "components": [
       "card"
     ]
-  },
-  {
-    "id": "resources",
-    "components": [
-      "image",
-      "title",
-      "text"
-    ]
   }
 ]
