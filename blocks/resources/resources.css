@@ -68,3 +68,26 @@
   transform: translateX(-50%);
   width: 70%;
 }
+
+.resources.heading-left .resources-row {
+  justify-content: left;
+  margin-left: 50px;
+}
+
+.resources.heading-left .resources-links::before {
+  left: 35%;
+}
+
+.resources.heading-left.links-center .resources-links::before {
+  left: 35%;
+  width: 90%;
+}
+
+.resources.heading-left.links-left .resources-links::before {
+  left: 25%;
+  width: 70%;
+}
+
+.resources.links-left .resources-links {
+  justify-content: left;
+}

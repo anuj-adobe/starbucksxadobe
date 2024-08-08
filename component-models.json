@@ -304,26 +304,31 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "separator_color",
-        "value": "#eedc82",
-        "label": "Separator Color",
-        "valueType": "string"
-      },
-      {
         "component": "multiselect",
         "name": "classes",
-        "value": "",
+        "value": "default",
         "label": "Block variants",
         "valueType": "string",
         "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
           {
             "name": "Heading Left Aligned",
             "value": "heading-left"
           },
           {
+            "name": "Heading center Aligned",
+            "value": "heading-center"
+          },
+          {
             "name": "Links Left Aligned",
             "value": "links-left"
+          },
+          {
+            "name": "Links Center Aligned",
+            "value": "links-center"
           }
         ]
       }
