@@ -129,72 +129,9 @@
       },
       {
         "component": "select",
-        "name": "image_col_ratio",
+        "name": "classes",
         "value": "",
-        "label": "Image column ratio",
-        "description": "Image column ratio",
-        "valueType": "string",
-        "options": [
-         {
-             "name": "1x1",
-             "value": ""
-         },
-         {
-             "name": "1x2",
-             "value": "img-col-half"
-         },
-         {
-             "name": "2x1",
-             "value": "img-col-double"
-         }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "image_size",
-        "value": "",
-        "label": "Image Size",
-        "description": "Image Size",
-        "valueType": "string",
-        "options": [
-         {
-             "name": "Original",
-             "value": ""
-         },
-         {
-             "name": "medium",
-             "value": "img-medium"
-         },
-         {
-             "name": "Large",
-             "value": "img-large"
-         }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "layout",
-        "value": "left-aligned",
-        "label": "Layout",
-        "description": "Layout",
-        "valueType": "string",
-        "options": [
-         {
-             "name": "Left aligned",
-             "value": "left-aligned"
-         },
-         {
-             "name": "Center aligned",
-             "value": "center-aligned"
-         }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "column_text_size",
-        "value": "",
-        "label": "Column Text Size",
-        "description": "Column Text Size",
+        "label": "Block variants",
         "valueType": "string",
         "options": [
          {
@@ -202,13 +139,41 @@
              "value": ""
          },
          {
-             "name": "small",
-             "value": "text-small"
+             "name": "1x2",
+             "value": "first-col-half"
          },
          {
-             "name": "large",
-             "value": "text-large"
-         }
+             "name": "2x1",
+             "value": "first-col-double"
+         },
+         {
+              "name": "Image size medium",
+              "value": "img-medium"
+         },
+         {
+              "name": "Image size large",
+              "value": "img-large"
+         },
+         {
+            "name": "Text Left aligned",
+            "value": "left-aligned"
+          },
+          {
+            "name": "Text Center aligned",
+            "value": "center-aligned"
+          },
+          {
+            "name": "text default",
+            "value": "text-default"
+          },
+          {
+            "name": "text small",
+            "value": "text-small"
+          },
+          {
+            "name": "text large",
+            "value": "text-large"
+          }
         ]
       }
     ]
