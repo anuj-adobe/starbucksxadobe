@@ -129,7 +129,7 @@
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "image_col_ratio",
         "value": "",
         "label": "Image column ratio",
         "description": "Image column ratio",
@@ -151,7 +151,7 @@
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "image_size",
         "value": "",
         "label": "Image Size",
         "description": "Image Size",
@@ -173,7 +173,7 @@
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "layout",
         "value": "left-aligned",
         "label": "Layout",
         "description": "Layout",
@@ -191,7 +191,7 @@
       },
       {
         "component": "select",
-        "name": "classes",
+        "name": "column_text_size",
         "value": "",
         "label": "Column Text Size",
         "description": "Column Text Size",
