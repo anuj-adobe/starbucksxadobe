@@ -101,3 +101,11 @@
 .resources.font-white a {
   color: white;
 }
+
+.resources.separator-white .resources-links::before {
+  border-bottom: 1px solid white;
+}
+
+.resources.separator-black .resources-links::before {
+  border-bottom: 1px solid black;
+}

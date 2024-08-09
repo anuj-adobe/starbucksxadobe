@@ -323,6 +323,14 @@
             "value": "font-black"
           },
           {
+            "name": "Separator White",
+            "value": "separator-white"
+          },
+          {
+            "name": "Separator Black",
+            "value": "separator-black"
+          },
+          {
             "name": "Heading Left Aligned",
             "value": "heading-left"
           },
