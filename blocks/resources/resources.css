@@ -91,3 +91,13 @@
 .resources.links-left .resources-links {
   justify-content: left;
 }
+
+.resources.font-black p,
+.resources.font-black a {
+  color: black;
+}
+
+.resources.font-white p,
+.resources.font-white a {
+  color: white;
+}

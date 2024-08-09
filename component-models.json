@@ -315,6 +315,14 @@
             "value": ""
           },
           {
+            "name": "White Font",
+            "value": "font-white"
+          },
+          {
+            "name": "Black Font",
+            "value": "font-black"
+          },
+          {
             "name": "Heading Left Aligned",
             "value": "heading-left"
           },
